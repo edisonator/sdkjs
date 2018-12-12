@@ -1422,7 +1422,7 @@ var editor;
       this.wb.drawWorksheet();
       History.TurnOn();
     }
-  };
+  }; 
 
   spreadsheet_api.prototype._onCleanSelection = function() {
     if (this.wb) {
